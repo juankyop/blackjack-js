@@ -16,12 +16,20 @@ html, body {
 }
 
 .carta {
-    width: 170px;
+    width: 175px;
     position: relative;
     left: 100px;
     margin-left: -75px;
+    transition: transform 0.5s;
 }
+
+.carta:hover {
+    transform: rotate(-10deg);
+}
+
 
 #computadora-cartas, #jugador-cartas {
     height: 260px;
+   
+
 }
